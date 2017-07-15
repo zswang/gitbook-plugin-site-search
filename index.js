@@ -11,7 +11,7 @@ module.exports = {
   hooks: {
     page(page) {
       const defaults = {
-        url: 'https://baidu.com/s?wd=',
+        url: 'https://www.baidu.com/s?wd=',
       }
       const pluginConfig = this.config.get('pluginsConfig')['site-search']
       const options = Object.assign({}, defaults, pluginConfig)

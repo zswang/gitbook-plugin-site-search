@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-site-search",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Site Search of GitBook Plugin",
   "main": "index.js",
   "scripts": {

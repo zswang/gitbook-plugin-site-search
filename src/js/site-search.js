@@ -13,7 +13,7 @@ require([
       var q = $(this).val().trim();
       if (q) {
         // gitbookSiteSearchConfig = {
-        //   url: 'https://baidu.com/s?wd=',
+        //   url: 'https://www.baidu.com/s?wd=',
         //   site: 'site:sensorsdata.cn manaul',
         // }
         gitbookSiteSearchConfig.site = gitbookSiteSearchConfig.site || 'site:' + location.hostname;

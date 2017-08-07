@@ -19,9 +19,9 @@ module.exports = {
       const url = options.url
       const site = options.site
 
-      page.content = `<script>gitbookSiteSearchConfig = ${JSON.stringify({ url: url, site: site })}</script>` + page.content
+      page.content = `${page.content}<script>gitbookSiteSearchConfig = ${JSON.stringify({ url: url, site: site })}</script>`
 
-      return page;
+      return page
     }
   }
 }
